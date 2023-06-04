@@ -763,6 +763,9 @@ a {
   border-color: #4d5ae5;
   fill: #4d5ae5;
 }
+.contact-form-input:focus {
+  border-color: #4d5ae5;
+}
 .modal-ikon-name {
   position: absolute;
   left: 16px;
@@ -824,7 +827,7 @@ a {
   margin-left: 16px;
   fill: #ffffff;
 }
-.modal-container-сomment {
+.modal-comment {
   margin-bottom: 16px;
 }
 
