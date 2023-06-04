@@ -869,11 +869,6 @@ a {
   justify-content: center;
   fill: transparent;
 }
-.visually-hidden:checked + .modal-accept-span {
-  background-color: var(--pressed-btn);
-  border: none;
-  fill: var(--background-white);
-}
 .modal-link {
   color: var(--button-color-text);
 }
@@ -896,7 +891,7 @@ a {
   letter-spacing: 0.04em;
 }
 
-.input-visually-hidden:checked + .label-modal-accept-label > .span-modal-link {
+.input-visually-hidden:checked + .modal-accept-label > .modal-accept-span {
   background-color: var(--pressed-btn);
   border: none;
   fill: #ffffff;
