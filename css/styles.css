@@ -895,8 +895,10 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.contact-form-checkbox:checked
-  + .contact-form-own-checkbox
-  > .contact-form-checkmark-icon {
-  opacity: 1;
+
+.input-visually-hidden:checked + .label-modal-accept-label > .span-modal-link {
+  background-color: var(--pressed-btn);
+  border: none;
+  fill: #ffffff;
+  border-color: var(--background-white);
 }
